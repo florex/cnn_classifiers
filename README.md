@@ -16,7 +16,11 @@ This module have 3 main files :
   Run the file with the command pyhton cnn_filter_analyser. In line if test_x[k,0] == 1889 : 1889 represent the id of the
   resume to analyse. For a global analysis simply comment the if statement.
 
-
+# Dependecies
+- keras
+- matplotlib
+- sklearn
+- numpy
 
 # To train the cnn base models
 - Using the preprocessing project, generate the preprocessed training dataset from the raw text resume.
