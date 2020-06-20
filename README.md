@@ -19,11 +19,11 @@ This module have 3 main files :
 
 
 # To train the cnn base models
-- Unzip the file 500.zip inside the directory dataset
-- inside the file cnn_w2vec.py, edit the variable dataset_dir to point to the directory dataset/500
-- Models_dir will contain the trained models for each base classifier. Edit this variable to point to the directory where you want the models to be generated
+- Using the preprocessing project, generate the preprocessed training dataset from the raw text resume.
+- inside the file cnn_w2vec.py, edit the variable dataset_dir to point to the directory <path to the dataset>/500
+- Models_dir will contain the trained models of each base classifier. Edit this variable to point to the directory where you want the models to be generated
 
-Simply run the command : python cnn_w2vec.py 
+- FInally run the command : python cnn_w2vec.py 
 
 
 # To evaluate the multilabel architecture :
