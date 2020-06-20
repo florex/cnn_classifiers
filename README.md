@@ -19,9 +19,9 @@ This module have 3 main files :
 - numpy
 
 # To train the cnn base models
-- Using the preprocessing project, generate the preprocessed training dataset from the raw text resume.
-- inside the file cnn_w2vec.py, edit the variable dataset_dir to point to the directory <path to the dataset>/500
-- Models_dir will contain the trained models of each base classifier. Edit this variable to point to the directory where you want the models to be generated
+- Using the preprocessing project, generate the preprocessed training dataset from the raw text resumes.
+- inside the file cnn_w2vec.py, edit the variable dataset_dir to point to the directory <path to the dataset>/500 containing the generated training set.
+- Edit the variable models_dir to point to the directory where you want the models to be generated.
 
 - FInally run the command : python cnn_w2vec.py 
 
