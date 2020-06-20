@@ -40,7 +40,7 @@ models_dir = 'E:/Thèse/models/dws/'
 curr_class = "Java_Developer"
 cv_height = 500
 
-for curr_class in ["Java_Developer"] :
+for curr_class in classes :
 #curr_class = "Python_Developer"
 #for n_filters in [100] :
     print("Start loading the matrix....")
