@@ -26,6 +26,6 @@ This module have 3 main files :
 Simply run the command : python cnn_w2vec.py 
 
 
-# Evaluate the multilabel architecture :
+# To evaluate the multilabel architecture :
 - Edit the file multi_cnn.py and set the variables models_dir and dataset_dir with the correct path
 - Then run the command : python multi_cnn.py
