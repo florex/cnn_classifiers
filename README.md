@@ -27,5 +27,5 @@ This module have 3 main files :
 
 
 # To evaluate the multilabel architecture :
-- Edit the file multi_cnn.py and set the variables models_dir and dataset_dir with the correct path
+- Edit the file multi_cnn.py and set the variables models_dir and dataset_dir with the correct paths
 - Then run the command : python multi_cnn.py
