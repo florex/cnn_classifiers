@@ -5,9 +5,9 @@ This module have 3 main files :
 
 - cnn_w2vec.py is the python program to build a binary cnn classifier centered on a particular competence.
 
-- The multi_cnn.py is the program to build an evaluate the multi-label architecture. 
+- multi_cnn.py is the program to build an evaluate the multi-label architecture. 
 
-- The program cnn_filter_analyser is used to analyse filters at a global level by determining the words they are specialized in
+- cnn_filter_analyser is used to analyse filters at a global level by determining the words they are specialized in
   detecting or to analyse a single prediction. Change the target datas to analyse by updating the variable curr_class. 
   Run the file with the command pyhton cnn_filter_analyser. At the line "if test_x[k,0] == 1889 :", 1889 represents the id of the
   resume to analyse. For a global analysis simply comment the if statement.
