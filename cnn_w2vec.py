@@ -41,8 +41,6 @@ curr_class = "Java_Developer"
 cv_height = 500
 
 for curr_class in classes :
-#curr_class = "Python_Developer"
-#for n_filters in [100] :
     print("Start loading the matrix....")
     dataset = dataset_dir+str(cv_height)+'/'+curr_class+'.csv'
     #dataset='datasets/clean/'+str(cv_height)+'/'+curr_class+'.csv'
@@ -99,10 +97,10 @@ for curr_class in classes :
     #model.add(layers.Conv1D(10,100,activation='relu'))
     #model.add(layers.MaxPool1D(pool_size=2, strides=1))
     #model.add(layers.Flatten())
-    model.add(layers.Conv1D(200,1,activation='relu'))
+    model.add(layers.Conv1D(100,1,activation='relu'))
     model.add(layers.GlobalMaxPool1D())
     #model.add(layers.Flatten())
-    model.add(layers.Dense(2, activation='relu'))
+    model.add(layers.Dense(10, activation='relu'))
     model.add(layers.Dense(1, activation='sigmoid'))
     sgd = optimizers.SGD(lr=0.01, decay=1e-6, momentum=0.1, nesterov=True)
     model.compile(loss='binary_crossentropy',optimizer=sgd,metrics=['accuracy'])
