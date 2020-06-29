@@ -19,7 +19,7 @@ This module has 3 main files :
 - numpy
 
 # To train the cnn base models
-- First, use the preprocessing project (https://github.com/florex/preprocessing) to generate the preprocessed training dataset from the raw text resumes. Edit de property output_dir which contains the path of the generated dataset.
+- First, use the preprocessing project (https://github.com/florex/preprocessing) to generate the preprocessed training dataset from the raw text resumes. Edit de property output_dir to point to the directory which will contain the generated dataset.
 - Then, open the file cnn_w2vec.py and edit the variable dataset_dir to point to the directory <path to the dataset>/500 containing the generated training set.
 - After, edit the variable models_dir to point to the directory where you want the models (base classifiers) to be generated.
 - Finally run the command : python cnn_w2vec.py 
