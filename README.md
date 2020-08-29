@@ -28,3 +28,6 @@ This module has 3 main files :
 # To evaluate the multilabel architecture :
 - Edit the file multi_cnn.py and set the variables models_dir and dataset_dir with the correct paths
 - Then run the command : python multi_cnn.py
+
+# Cite this :
+Jiechieu, K.F.F., Tsopze, N. Skills prediction based on multi-label resume classification using CNN with model predictions explanation. Neural Comput & Applic (2020). https://doi.org/10.1007/s00521-020-05302-x
