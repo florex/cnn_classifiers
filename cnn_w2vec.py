@@ -129,6 +129,7 @@ for curr_class in classes :
 prod_t = model.predict(X_test)
 pred_t = [0 if i<0.5 else 1 for i in prod_t]
 
+print("Resumes where the models failed at predicting the correct value :")
 pos = 0
 for y,t,p in zip(pred_t,y_test,prod_t) :
     if y != t :
